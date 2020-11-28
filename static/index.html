@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="three.js"></script>
+    <script src="Net.js"></script>
+    <script src="Ui.js"></script>
+    <script src="Game.js"></script>
+    <script src="Pionek.js"></script>
+    <script src="Field.js"></script>
+    <script src="Main.js"></script>
+</head>
+<body>
+    <div id="root">
+        <div id="overlay"></div>
+        <div id="waiting">Czekam na połączenie się drugiego gracza...</div>
+        <div id="waitingMove">Ruch ma przeciwnik</div>
+        <div id="waitingTimer"></div>
+        <div id="status"></div>
+        <div id="divLogin">
+            <p><b>Wybierz nick:</b></p>
+            <input type="text" name="" id="loginInput" required>
+            <button id="loginButton">Graj!</button>
+            <button id="resetButton">Resetuj</button>
+        </div>
+        <div id="playerInfo"></div>
+    </div>
+</body>
+</html>

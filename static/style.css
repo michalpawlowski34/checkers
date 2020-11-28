@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+}
+#divLogin{
+    background-color: pink;
+    color: black;
+    border: 2px solid palevioletred;
+    border-radius: 35px;
+    width: 20vw;
+    height: 20vh;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-left: -10vw;
+    margin-top: -10vh;
+    position: absolute;
+    visibility: visible;                                         /*LOGIN MENU HIDDEN*/
+}
+#loginInput{
+    position: relative;
+    top: 2vh;
+    width: 18vw;
+    height: 2.5vh;
+    background-color: peachpuff;
+    font-size: 100%;
+}
+#loginButton{
+    background-color: peachpuff;
+    border: 1px solid orange;
+    border-radius: 35px;
+    width: 6vw;
+    height: 3vh;
+    position: absolute;
+    top: 9vh;
+    left: 7vw;
+}
+#resetButton{
+    background-color: peachpuff;
+    border: 1px solid orange;
+    border-radius: 45px;
+    width: 5vw;
+    height: 3vh;
+    position: relative;
+    top: 9vh;
+}
+#root{
+    z-index: 0;
+    position: absolute;
+}
+#overlay{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.5;
+    visibility: visible;                                         /*OVERLAY HIDDEN*/
+}
+#waiting{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    text-align: center;
+    color: white;
+    font-size: 3.5vw;
+    visibility: hidden;                                            /*WAITING HIDDEN*/
+    top: 50%;
+}
+#waitingMove{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    text-align: center;
+    color: peachpuff;
+    font-size: 3.5vw;
+    visibility: hidden;                                            /*HIDDEN*/
+    top: 50%;
+}
+#waitingTimer{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    text-align: center;
+    color: peachpuff;
+    font-size: 3vw;
+    visibility: hidden;                                            /*HIDDEN*/
+    top: 60%;
+}
+#status {
+    width: 60vw;
+    height: 20vh;
+    z-index: 2;
+    position: fixed;
+    margin: auto;
+    left: 20vw;
+    color: coral;
+    text-align: center;
+    font-size: 200%;
+}
+#playerInfo{
+    width: 100vw;
+    height: 10vh;
+    z-index: 2;
+    position: absolute;
+    top: 90vh;
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+    color: white;
+}
